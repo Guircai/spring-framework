@@ -1,4 +1,9 @@
+com/guircai/spring/bean/Cat.java
+ com.guircai.spring.bean.Cat
 com/guircai/spring/MainTest.java
  com.guircai.spring.MainTest
 com/guircai/spring/bean/Person.java
  com.guircai.spring.bean.Person
+com/guircai/spring/config/MainConfig.java
+ com.guircai.spring.config.MainConfig
+ com.guircai.spring.config.MainConfig$MyImportRegistrar
