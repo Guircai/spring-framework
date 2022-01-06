@@ -1,0 +1,4 @@
+com/guircai/spring/MainTest.java
+ com.guircai.spring.MainTest
+com/guircai/spring/bean/Person.java
+ com.guircai.spring.bean.Person
