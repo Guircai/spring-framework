@@ -10,9 +10,8 @@ import org.springframework.stereotype.Component;
  * Create: 2022/1/6 21:28
  **/
 
-@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 // 容器就应该给Cat再创建一个对象
-//@Scope(value = "prototype")
+@Scope(value = "prototype") // @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Component
 public class Cat {
 	public String name;

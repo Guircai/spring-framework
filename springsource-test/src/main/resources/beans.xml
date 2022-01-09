@@ -4,7 +4,6 @@
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean class="com.guircai.spring.bean.Person" id="person">
-		<property name="mame" value="zhangsan"/>
+		<property name="mame" value="张三"/>
 	</bean>
-
 </beans>

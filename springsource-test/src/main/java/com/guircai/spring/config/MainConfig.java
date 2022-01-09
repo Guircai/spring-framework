@@ -16,6 +16,13 @@ import org.springframework.core.type.AnnotationMetadata;
 /**
  * 		BeanDefinitionRegistry：Bean定义信息注册中心：图纸中心
  * 				它里面都是BeanDefinition
+ *
+ * 	<bean class="com.guircai.spring.bean.Person" id="person">
+ * 		<property name="mame" value="张三"/>
+ * 	</bean>
+ *
+ * 	对应
+ * 	BeanDefinition
  */
 //@Import({Person.class, MainConfig.MyImportRegistrar.class})
 @ComponentScan("com.guircai.spring.bean")
