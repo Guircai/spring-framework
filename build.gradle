@@ -320,7 +320,7 @@ configure([rootProject] + javaProjects) { project ->
 				languageVersion = "1.3"
 				apiVersion = "1.3"
 				freeCompilerArgs = ["-Xjsr305=strict"]
-				allWarningsAsErrors = true
+				allWarningsAsErrors = false
 			}
 		}
 		compileTestKotlin {
