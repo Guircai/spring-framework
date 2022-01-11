@@ -36,12 +36,16 @@ public class MainTest {
 //		Cat cat2 = applicationContext1.getBean(Cat.class);
 //		System.out.println(cat1 == cat2);
 
-		Person person1 = applicationContext1.getBean(Person.class);
-		Cat cat3 = person1.getCat();
+//		Person person1 = applicationContext1.getBean(Person.class);
+//		Cat cat3 = person1.getCat();
+//
+//		Person person2 = applicationContext1.getBean(Person.class);
+//		Cat cat4 = person2.getCat();
+//
+//		System.out.println(cat3 == cat4);
 
-		Person person2 = applicationContext1.getBean(Person.class);
-		Cat cat4 = person2.getCat();
-
-		System.out.println(cat3 == cat4);
+		Person bean = applicationContext1.getBean(Person.class);
+		ApplicationContext context = bean.getContext();
+		System.out.println(applicationContext1 == context);
 	}
 }
