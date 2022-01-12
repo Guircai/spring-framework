@@ -8,6 +8,8 @@
 		<property name="mame" value="张三"/>
 	</bean>
 
+	<bean class="com.guircai.spring.bean.HelloFactory" id="hello"/>
+
 	<!-- xml 转为 BeanDefinition 这个java对象 -->
 
 <!--	<import resource=""/>-->

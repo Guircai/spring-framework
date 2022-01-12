@@ -1,9 +1,29 @@
-com/guircai/spring/bean/Cat.java
- com.guircai.spring.bean.Cat
-com/guircai/spring/MainTest.java
- com.guircai.spring.MainTest
+com/guircai/spring/processor/factory/MyBeanDefinitionRegistry.java
+ com.guircai.spring.processor.factory.MyBeanDefinitionRegistry
+com/guircai/spring/bean/Hello.java
+ com.guircai.spring.bean.Hello
 com/guircai/spring/bean/Person.java
  com.guircai.spring.bean.Person
+com/guircai/spring/processor/bean/MyInstantiationAwareBean.java
+ com.guircai.spring.processor.bean.MyInstantiationAwareBean
+com/guircai/spring/processor/bean/MyInitializingBean.java
+ com.guircai.spring.processor.bean.MyInitializingBean
+com/guircai/spring/processor/bean/MySmartInstantiationAware.java
+ com.guircai.spring.processor.bean.MySmartInstantiationAware
 com/guircai/spring/config/MainConfig.java
  com.guircai.spring.config.MainConfig
  com.guircai.spring.config.MainConfig$MyImportRegistrar
+com/guircai/spring/processor/factory/MyBeanFactoryPostProcessor.java
+ com.guircai.spring.processor.factory.MyBeanFactoryPostProcessor
+com/guircai/spring/AnnotationMainTest.java
+ com.guircai.spring.AnnotationMainTest
+com/guircai/spring/bean/Cat.java
+ com.guircai.spring.bean.Cat
+com/guircai/spring/processor/bean/MyMergedBeanDefinition.java
+ com.guircai.spring.processor.bean.MyMergedBeanDefinition
+com/guircai/spring/bean/HelloFactory.java
+ com.guircai.spring.bean.HelloFactory
+com/guircai/spring/processor/bean/MyBeanPostProcessor.java
+ com.guircai.spring.processor.bean.MyBeanPostProcessor
+com/guircai/spring/MainTest.java
+ com.guircai.spring.MainTest
