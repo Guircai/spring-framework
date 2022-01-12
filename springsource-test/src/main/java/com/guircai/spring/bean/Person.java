@@ -50,7 +50,7 @@ public class Person implements ApplicationContextAware, MessageSourceAware {
 		return cat;
 	}
 
-	@Autowired
+	@Autowired // 依赖的组件是多实例就不能Autowired
 	public void setCat(Cat cat) {
 		this.cat = cat;
 	}
@@ -65,6 +65,7 @@ public class Person implements ApplicationContextAware, MessageSourceAware {
 
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+		// 利用回调机制，把ioc容器传入
 		this.context = applicationContext;
 	}
 

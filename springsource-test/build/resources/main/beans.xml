@@ -4,6 +4,11 @@
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean class="com.guircai.spring.bean.Person" id="person">
+<!--		<constructor-arg/>-->
 		<property name="mame" value="张三"/>
 	</bean>
+
+	<!-- xml 转为 BeanDefinition 这个java对象 -->
+
+<!--	<import resource=""/>-->
 </beans>
