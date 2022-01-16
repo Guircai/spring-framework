@@ -64,4 +64,5 @@ settings.gradle.projectsLoaded {
 }
 include 'springsource-test'
 include 'springmvc-source-test'
+include 'springboot-build'
 

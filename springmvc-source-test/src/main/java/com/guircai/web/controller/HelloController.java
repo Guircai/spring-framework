@@ -1,5 +1,6 @@
 package com.guircai.web.controller;
 
+import com.guircai.web.exception.InvalidUserException;
 import com.guircai.web.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,7 +43,13 @@ public class HelloController {
 						   HttpSession session, HttpServletRequest request,
 						   @RequestHeader("User-Agent")String ua,
 						   Model model,
+						   Integer i,
 						   RedirectAttributes redirectAttributes) { // 原生的session对象
+		int x = 10/ i;
+		if ("abc".equals(user)) {
+			// 非法用户信息
+			throw new InvalidUserException();
+		}
 		// @RequestHeader("User-Agent") String ua 获取指定请求头的值
 		String header = request.getHeader("User-Agent");
 		// 方法的签名，到底能写哪些
